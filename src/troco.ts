@@ -6,7 +6,7 @@ const cedulas:number[] = [100, 50, 20, 10, 5, 2];
 function calcularTroco(valorPago: number, valorCompra: number){
 
     let troco = valorPago - valorCompra;
-    console.log(`Seu troco ficou em R$ ${troco.toFixed(2)}`);
+    console.log(`Seu troco ficou em R$ ${+troco.toFixed(2)}`);
 
     let resultado = [];
 
@@ -23,7 +23,6 @@ function calcularTroco(valorPago: number, valorCompra: number){
         let quantidadeMoedas = Math.floor(troco / moedas[i]);
         if(quantidadeMoedas > 0){
             troco -= quantidadeMoedas * moedas[i];
-            troco = +troco.toFixed(2);
             resultado.push(`É necessário ${quantidadeMoedas} moeda(s) de ${moedas[i]} real/centavos`);
         }
 
