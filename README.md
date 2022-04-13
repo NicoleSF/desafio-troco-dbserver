@@ -1,6 +1,6 @@
 # **DESAFIO DO TROCO DBSERVER**
 
-* _Seu desafio é fazer um programa que leia o valor total a ser pago, e o valor efetivamente pago, informar o maior número de cédulas e moedas que dem ser fornecidas como troco.
+* Seu desafio é fazer um programa que leia o valor total a ser pago, e o valor efetivamente pago, informar o maior número de cédulas e moedas que dem ser fornecidas como troco.
 
 * Deve-ser considerar que há:
 
@@ -21,4 +21,4 @@ Valor pago: R$3.00
 
 Resultado esperado: 1 moeda de R$1.00
 
-* Para a realização do desafio, foi utilizado typescript e node.js._
+* Para a realização do desafio, foi utilizado typescript e node.js.
