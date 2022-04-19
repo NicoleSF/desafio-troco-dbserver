@@ -9,19 +9,23 @@ module.exports = {
     "transform": {
         "^.+\\.(js|ts|tsx)$": "ts-jest"
       },
-      collectCoverage: true,
-        collectCoverageFrom: [
-          "**/*.{js,jsx}",
-          "!**/node_modules/**",
-          "!**/vendor/**",
-          "!**/coverage/**"
-        ],
+       collectCoverage: true,
+        // collectCoverageFrom: [
+        //   [
+        //    "**/*.{js,ts,tsx}",
+        //   "!**/node_modules/**",
+        //   "!**/vendor/**",
+        //   "!**/coverage/**"   
+        //   ],
+         
+        // ],
         
 }
 
 const config:Config.InitialOptions = {
    
         preset: "ts-jest",
+        //collectCoverage: true,
         watchAll: true,
         verbose: true,
     
