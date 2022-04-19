@@ -2,7 +2,7 @@
 const moedas:number[] = [1, 0.50, 0.25, 0.10, 0.05];
 const cedulas:number[] = [100, 50, 20, 10, 5, 2];
 
- export function calcularTroco(valorPago: number, valorCompra: number){
+function calcularTroco(valorPago: number, valorCompra: number){
 
     let troco = valorPago - valorCompra;
     console.log(`Seu troco ficou em R$ ${+troco.toFixed(2)}`);
@@ -31,7 +31,7 @@ const cedulas:number[] = [100, 50, 20, 10, 5, 2];
 
 }
 
-console.log(calcularTroco(250, 210.20));
+module.exports = console.log(calcularTroco(250, 210.20));
 
 
 

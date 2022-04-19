@@ -9,7 +9,7 @@ module.exports = {
     "transform": {
         "^.+\\.(js|ts|tsx)$": "ts-jest"
       },
-       collectCoverage: true,
+       //collectCoverage: true,
         // collectCoverageFrom: [
         //   [
         //    "**/*.{js,ts,tsx}",
@@ -25,7 +25,7 @@ module.exports = {
 const config:Config.InitialOptions = {
    
         preset: "ts-jest",
-        //collectCoverage: true,
+        collectCoverage: true,
         watchAll: true,
         verbose: true,
     

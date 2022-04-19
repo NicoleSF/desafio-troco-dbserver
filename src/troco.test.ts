@@ -1,6 +1,6 @@
-import { calcularTroco } from "./troco";
+//import { calcularTroco } from "./troco";
+const calc = require('./troco');
 
-jest.mock('./troco');
 
 describe('A função deve retornar o troco com cédulas e moedas', () => {
 
