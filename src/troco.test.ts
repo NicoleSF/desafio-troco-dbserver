@@ -7,4 +7,6 @@ describe('A função deve retornar o troco com cédulas e moedas', () => {
         const resultado = calcularTroco(250, 210.20);
         expect(resultado).toContain([]);
     })
+
+   
 })
